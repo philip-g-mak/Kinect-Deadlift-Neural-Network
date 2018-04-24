@@ -1,0 +1,10 @@
+
+Store Kinect Data with naming convention
+    {b for bad form | g for good forma}_{trial number}
+
+run kinect_to_csv.py to convert kinnect data to a readable csv file
+    $ python kinect_to_csv.py
+
+run csv_to_mat.py to convert csv data to a readable mat file
+    $ python csv_to_matrix.py
+    or whatever directory your csv data is located
