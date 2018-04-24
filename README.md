@@ -5,7 +5,8 @@ A neural network utilizing Microsoft Kinnect's motion tracking abilities to dete
 lifting form.  This project can be applied to any movement or motion given a large and varied enough
 dataset.
 
-FOR TRAINING
+To train the neural network
+
     Store Kinect Data with naming convention 
     {b for bad form | g for good forma}_{trial number}
     in /Skeleton_Data/raw_data
@@ -22,7 +23,9 @@ FOR TRAINING
     
     the model will be saved as DeadList_Model.h5
 
-FOR EVALUATING
-Store Kinect Data in Evaluate_Input/raw_data with any name (somewhat intelligent pls)
-then run
+
+To evaluate input on the neural network
+
+    Store Kinect Data in Evaluate_Input/raw_data with any name (somewhat intelligent pls)
+    then run
     $ python Evaluate_Input.py 
